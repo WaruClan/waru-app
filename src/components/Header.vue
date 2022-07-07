@@ -12,9 +12,9 @@ const routes = [
         url: '/my-nfts'
     },
     {
-        icon: 'las la-road',
-        name: 'Roadmap',
-        url: '/roadmap'
+        icon: 'las la-exchange-alt',
+        name: 'Transfer',
+        url: '/xpr'
     },
 ]
 
