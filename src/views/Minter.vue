@@ -33,7 +33,7 @@ globalStore.$onAction(
         </div>
         <div class="flex flex-1 flex-col h-full lg:items-start items-center ">
             <span class="text-3xl lg:text-7xl font-medium capitalize tracking-wider ">
-                Waru Protocol
+                Waru Clan
             </span>
             <div class="flex flex-1 w-full items-start mt-6 justify-center">
                 <MinterBox />

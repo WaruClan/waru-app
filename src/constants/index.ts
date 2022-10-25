@@ -1,5 +1,5 @@
 
-export const BASE_TITTLE = `Waru Protocol `
+export const BASE_TITTLE = `Waru Clan `
 
 export const toasterOptions = {
     default: {

@@ -47,9 +47,9 @@ const team = [
     <div class="flex flex-1 flex-col justify-between items-center pt-0 lg:pt-20 lg:px-20 max-w-screen-xl mx-auto">
         <div class="flex flex-1 flex-col ">
             <div class="flex flex-none justify-center flex-col items-center text-center">
-                <span class="lg:text-7xl text-4xl">Waru Protocol</span>
+                <span class="lg:text-7xl text-4xl">Waru Clan</span>
                 <p class="mt-8 text-lg font-semibold">
-                    Waru Protocol is a token based protocol dedicated to governance and DEFI, our goal is to achieve
+                    Waru Clan is a token based protocol dedicated to governance and DEFI, our goal is to achieve
                     progressive decentralization and automation while creating multi-chain strategies that incentive and
                     reward our holders.
                 </p>
@@ -143,7 +143,7 @@ const team = [
                 <span class="lg:text-7xl text-4xl">WUBI</span>
             </div>
             <div class="flex flex-none flex-col mt-12 text-center space-y-4 text-xl">
-                <p>The 2100 W-UBI NFT Edition is a unique edition from Waru Protocol, it will give holders a passive
+                <p>The 2100 W-UBI NFT Edition is a unique edition from Waru Clan, it will give holders a passive
                     income (30% total generated) through our WTC strategies, this rewards are paid in yield tokens. We
                     are making this edition with 10 collections, 10 artists per collection and 210 NFTs per artist to
                     make the edition more unique. We are launching our initial colletion with @Yoichi has an artist to
@@ -240,4 +240,5 @@ const team = [
 </template>
 
 <style>
+
 </style>

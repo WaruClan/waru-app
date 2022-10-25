@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
-  { path: "/", name: 'Home', component: () => import('@/views/Home.vue'), },
+  { path: "/", redirect: '/minter' },
   { path: "/minter", name: 'Minter', component: () => import('@/views/Minter.vue'), },
-  { path: "/xpr", name: 'Transfer', component: () => import('@/views/Transfer.vue'), },
+  // { path: "/xpr", name: 'Transfer', component: () => import('@/views/Transfer.vue'), },
   { path: "/my-nfts", name: 'My Nfts', component: () => import('@/views/MyNfts.vue'), },
 ];
 

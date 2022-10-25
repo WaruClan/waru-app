@@ -24,11 +24,8 @@ const isEnd = computed(() => {
         <div class="flex flex-1 flex-col space-y-2">
             <MintingProcessModal :modal-open="minting" />
             <span class="text-2xl">W-UBI Warriors Minting</span>
-            <span class=" text-sm whitespace-pre-wrap">The W-UBI NFT Collection is a unique edition from Waru Protocol
-                that allow holders to
-                receive rewards produced with WTC strategies.
-                <br>To know more click
-                <router-link to="/" class="text-waruGreen-accent font-bold">here</router-link>
+            <span class=" text-sm whitespace-pre-wrap">Waru Clan is a NFT project that aims to use DeFi and Staking to
+                increase and retain value across different chains.
             </span>
         </div>
         <div class="flex flex-1 w-full flex-col space-y-1" v-if="networkSupported">
@@ -44,7 +41,7 @@ const isEnd = computed(() => {
             </span>
             <span>Mint Price: <span class="text-waruGreen-accent font-bold text-lg">{{
                     returnAmounts(utils.formatUnits(cost, 18))
-            }} ONE</span></span>
+            }} MATIC</span></span>
             <span>Minted: <span class="text-waruGreen-accent text-lg font-bold">{{ totalAmountMinted }} / {{ maxAmount
             }}</span></span>
         </div>

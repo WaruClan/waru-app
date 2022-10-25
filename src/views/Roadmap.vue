@@ -47,7 +47,7 @@ const timeline = [
     <div class="flex flex-1 flex-col justify-between items-center pt-0 lg:pt-20 lg:px-20 max-w-screen-xl mx-auto">
         <div class="flex flex-1 flex-col ">
             <div class="flex flex-none justify-center flex-col items-center text-center">
-                <span class="lg:text-7xl text-4xl">Waru Protocol's Roadmap</span>
+                <span class="lg:text-7xl text-4xl">Waru Clan's Roadmap</span>
             </div>
             <div class="flow-root mt-12">
                 <ul role="list" class="-mb-8">
@@ -83,4 +83,5 @@ const timeline = [
 </template>
 
 <style>
+
 </style>

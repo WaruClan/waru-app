@@ -2,10 +2,10 @@ import { Networks } from "./networks.interface";
 
 export const harmonyNetworks: Networks[] = [
     {
-        chainId: 1666600000,
-        rpcURL: 'https://api.harmony.one',
-        explorer: 'https://explorer.harmony.one/',
-        name: 'Harmony Mainnet',
+        chainId: 137,
+        rpcURL: 'https://polygon-rpc.com/',
+        explorer: 'https://polygonscan.com/',
+        name: 'Matic Mainnet',
         yoichiNft: '0xeA380Be04a398d93030E4Bff15cBC87f6B35b5ae',
         multicall: '0x34b415f4d3b332515e66f70595ace1dcf36254c5'
     },
