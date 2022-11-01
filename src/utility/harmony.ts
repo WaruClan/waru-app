@@ -6,8 +6,8 @@ export const harmonyNetworks: Networks[] = [
         rpcURL: 'https://polygon-rpc.com/',
         explorer: 'https://polygonscan.com/',
         name: 'Matic Mainnet',
-        yoichiNft: '0xeA380Be04a398d93030E4Bff15cBC87f6B35b5ae',
-        multicall: '0x34b415f4d3b332515e66f70595ace1dcf36254c5'
+        yoichiNft: '0xDE16eA1D873e3dD149c488A4C14B8116244e9b51',
+        multicall: '0xca11bde05977b3631167028862be2a173976ca11'
     },
     {
         chainId: 1666700000,

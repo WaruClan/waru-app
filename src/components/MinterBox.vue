@@ -23,7 +23,7 @@ const isEnd = computed(() => {
         class="flex flex-1 flex-col w-full justify-start items-start p-8 bg-gray-400 bg-opacity-20 dark:bg-opacity-5  rounded-2xl space-y-6">
         <div class="flex flex-1 flex-col space-y-2">
             <MintingProcessModal :modal-open="minting" />
-            <span class="text-2xl">W-UBI Warriors Minting</span>
+            <span class="text-2xl">WUBI Warriors Minting</span>
             <span class=" text-sm whitespace-pre-wrap">Waru Clan is a NFT project that aims to use DeFi and Staking to
                 increase and retain value across different chains.
             </span>

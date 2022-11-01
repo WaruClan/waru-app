@@ -38,7 +38,7 @@ const { modalOpen } = defineProps({
                                     muted>
                                     <source :src="MintingVideo" type="video/mp4">
                                 </video>
-                                <span class="text-2xl font-bold">Minting your W-UBI Warrior</span>
+                                <span class="text-2xl font-bold">Minting your WUBI Warrior</span>
                                 <span class="text-xs font-medium">*Please check your wallet and accept the transaction
                                     to
                                     proceed!</span>

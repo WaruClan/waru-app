@@ -11,7 +11,7 @@ interface globalStore {
 export const useGlobalStore = defineStore('global', {
     state: () => ({
         theme: 'light',
-        networkId: 1666600000,
+        networkId: 137,
         typeWallet: 'metamask',
         autoConnect: false
     } as globalStore),
