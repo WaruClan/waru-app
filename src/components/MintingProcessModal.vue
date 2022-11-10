@@ -34,8 +34,8 @@ const { modalOpen } = defineProps({
                         <div
                             class="inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform  shadow-xl rounded-2xl bg-white dark:bg-darkShade">
                             <div class="flex flex-1 justify-center items-center w-full flex-col space-y-4 text-center">
-                                <video class="video rounded-lg" id="mintingVideo" width="300" height="300" autoplay loop
-                                    muted>
+                                <video class="video rounded-lg hidden sm:flex" id="mintingVideo" width="300"
+                                    height="300" autoplay loop muted>
                                     <source :src="MintingVideo" type="video/mp4">
                                 </video>
                                 <span class="text-2xl font-bold">Minting your WUBI Warrior</span>
